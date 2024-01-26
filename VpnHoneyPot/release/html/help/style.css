@@ -1,0 +1,46 @@
+	body{color:#333333;font-family:"liberation sans","Myriad ","Bitstream Vera Sans","Lucida Grande",verdana,"Luxi Sans","Trebuchet MS",helvetica,verdana,arial,sans-serif;font-size:12px;line-height:150%;}
+body{background:url("images/bg_fade.jpg"/*tpa=https://218.26.12.94/com/help/images/bg_fade.jpg*/) repeat-x;}
+h1, h2, h3, h4, h5, h6 {color:#A70000;font-family:helvetica,verdana,arial,sans-serif;line-height:130%;}
+.section{padding-top:2em;}
+.section p{margin-top:12px;margin-bottom:12px;}
+.section img{display:block;}
+/*section 为大的段落区域*/
+
+.term{font-weight:bold;}
+.command{font-family:monospace !important;}/*配置参数*/
+.command .replaceable {color:#555555;}/*参数值*/
+code{white-space:nowrap;}/*代码标签*/
+
+.screen{background-color:#300A24;color:#fefefe;margin:0;padding:0.5em 1em;}/*代码输入*/
+pre {background-color:#F7F2D0;color:#333333;display:block;overflow:auto;-moz-border-radius:11px 11px 11px 11px;}
+
+div.note, div.tip, div.important, div.warning {background-position:10px 10px;background-repeat:no-repeat;background-color:#555753;border:1px solid #444444;color:white;margin-bottom:1.5em;padding:1em 1em 20px;margin-top:1.5em;}
+div.note h2, div.note p, div.tip h2, div.tip p, div.caution p, div.warning h2, div.warning p, div.important h2, .important p{margin:0;padding:0 0 0 56px;}
+div.note h2, div.tip h2, div.important h2,  div.warning h2{color:#fff;font-size:1.3em;height:32px;}
+div.note a:visited, div.tip a:visited, div.important a:visited, div.warning a:visited, div.note a:link, div.tip a:link, div.important a:link, div.caution a:link, div.warning a:link {color:#F7F2D0;}
+div.important{background-image:url("images/important.png"/*tpa=https://218.26.12.94/com/help/images/important.png*/);}
+/*以上为描述，提示，重要，警告等信息*/
+
+.qabar{background-color:#555753;font-size:14px;color:#fff;padding:5px; margin-top:10px;font-weight:bold;}
+.foot{height:20px;}
+
+.header{ border-bottom:3px solid #003399;padding:5px;}
+.header h1{position:relative;}
+.header h1 span{position:absolute;left:200px;top:15px;font-size:1.5em;color:#003399;}
+#left{float:left; width:150px;display:block;padding-left:10px;padding-top:20px;}
+#left a{color:#0066CC;text-decoration:underline;}
+#left dt {line-height:1.2em;margin-bottom:0.7em;}
+#left dd{ margin:0 0 0 2em;padding-top:0;}
+#right{margin-left:200px;width:700px;border-left:solid 1px #ccc;padding-left:20px;}
+#returnTop{
+	background:#fff url("images/r_top.gif"/*tpa=https://218.26.12.94/com/help/images/r_top.gif*/) no-repeat 0 0;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	color:#282828;
+	padding:2px 5px 2px 15px;
+	cursor:pointer;
+	border:solid 1px #71C113;
+	_position:absolute;
+}
+#returnTop:hover{color:#ccc}

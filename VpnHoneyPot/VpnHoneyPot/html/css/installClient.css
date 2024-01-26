@@ -1,0 +1,215 @@
+/*2016.6.28 by zsy*/
+html,body{
+	padidng:0;
+	margin:0;
+	min-width: 1060px;
+}
+div,span,ul,li{
+	padding:0;
+	margin:0;
+}
+/*清除浮动*/
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/*雪碧图*/
+.ecSpirit{
+	background-image: url("../images/ec/ecSpirit.png"/*tpa=https://218.26.12.94/com/images/ec/ecSpirit.png*/);
+	background-size:506px;
+}
+/*----------------------------------header------------------------------------*/
+.header{
+    height:44px;
+	min-width: 1060px;
+}
+/*----------------------------------navBar--------------------------------*/
+.nav{
+	height:111px;
+	background: #4489de;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#navBar{
+	width:1060px;
+	height:111px;
+	margin:0 auto;
+	position: relative;
+	text-align: center;
+	color:#fff;
+	cursor: pointer;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.deviceBtn{
+	position:relative;
+	/*top:-4px;*/
+	display: inline-block;
+	width:212px;
+	height:71px;
+	padding:20px 0;
+	float:left;
+	text-align:center;
+	color:#fff;
+	background: #4589DE;
+}
+#navAnim{
+	position: absolute;
+	box-sizing: border-box;
+	width:212px;
+	height:0;
+	border-top:3px solid #4489de;
+	border-bottom:3px solid #4489de;
+	top:-4px;
+	left:0;
+}
+#navBar .clickedBtn{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+#navBar .deviceName{
+	width:100%;
+	height:20px;
+	line-height:20px;
+	font:16px 'Cambria';
+}
+.activeBtn{
+	color:#4589DE;
+	background: #fff;
+}
+/*-----------选中样式---分开写为了兼容低版本firefox不支持background-position-x/y分别设置------*/
+.windowsBtn span{
+	background-position:0 -38px;
+}
+.macBtn span{
+	background-position:-56px -38px;
+}
+.linuxBtn span{
+	background-position:-112px -38px;
+}
+.androidBtn span{
+	background-position:-169px -38px;
+}
+.iosBtn span{
+	background-position:-224px -38px;
+}
+.windowsActiveBtn span{
+	background-position:0 -94px;
+}
+.macActiveBtn span{
+	background-position:-56px -94px;
+}
+.linuxActiveBtn span{
+	background-position:-112px -94px;
+}
+.androidActiveBtn span{
+	background-position:-169px -94px;
+}
+.iosActiveBtn span{
+	background-position:-224px -94px;
+}
+/*----------------------------main------------------------------*/
+.mainWrap{
+	width:100%;
+	margin-top: 20px;
+	text-align: center;
+}
+.main{
+	width:1060px;
+	height:550px;
+	margin: 0 auto;
+	overflow:hidden;
+	position:relative;
+}
+.ulbox{
+	width:5300px;
+	position: absolute;
+	left:0;
+}
+.ulbox ul{
+	list-style: none;
+}
+.ulbox ul li{
+	width:1060px;
+	float:left;
+}
+/*-------------------------内容块左边------------------------*/
+.mainLeft{
+	position: relative;
+	display:inline-block;
+	float: left;
+	width:600px;
+}
+/*-------------------------内容块右边------------------------*/
+.mainRight{
+	box-sizing: border-box;
+	width:460px;
+	display:inline-block;
+	float:right;
+	padding:140px 0 0 0;
+	text-align: left;
+}
+.mainRight .title{
+	font:bold 30px 'Cambria';
+	margin:5px 0;
+}
+.mainRight .title span:nth-child(1){
+	font-weight:normal;
+}
+.mainRight .subTitle{
+	max-width: 470px;
+	font:lighter 18px '微软雅黑';
+	color:#5c5c5c;
+}
+.mainRight .downBtn{
+	width:300px;
+	display: block;
+	height:36px;
+	line-height:60px;
+	border-radius:5px;
+	margin:32px 0 20px 0;
+	padding:15px 0;
+	text-decoration:none;
+	background:#99CC00;
+	text-align:center;
+	font:25px 'Microsoft YaHei';
+	white-spacing:no-wrap;
+	color:#fff;
+	cursor:pointer;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);
+}
+.mainRight .downBtn:hover{
+	background: #add633;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.25);
+}
+.mainRight .downBtn:active{
+	background: #8abc00;
+}
+.mainRight .info{
+	color:#a5a5a5;
+	font:lighter 15px '微软雅黑';
+}
+.mainRight .help, .mainRight .tipsInfo{
+	margin:22px 0;
+	color:#a5a5a5;
+	font-size: 14px;
+	font-family: "Microsoft Yahei", sans-serif;
+}
+.mainRight .help a{
+	color:#4489de;
+}
+.mainRight #linuxVersion span,.mainRight #androidVersion span{
+	color:#a5a5a5;
+	line-height: 17px;
+	font-size: 15px;
+}
+.mainRight #linuxVersion a,.mainRight #androidVersion a{
+	color:#4489DE;
+	text-decoration: none;
+	line-height: 21px;
+	font-size: 13px;
+}
+.mainRight #linuxVersion a:hover,.mainRight #androidVersion a:hover{
+	text-decoration:underline;
+}

