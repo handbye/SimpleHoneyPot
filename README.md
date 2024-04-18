@@ -1,3 +1,5 @@
+请移步到：https://github.com/handbye/potmanager
+
 面向护网，攻防演练等场景下的小型蜜罐。
 
 特点：
